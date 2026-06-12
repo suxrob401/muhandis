@@ -335,9 +335,50 @@
 }
 
 .durg-addicts video {
-    width: 30%;
-    height: 700px;
+    width: 300px;
+    height: 400px;
     object-fit: cover;
     border: 2px solid #00fbff;
     box-shadow: 0 0 15px rgba(0, 251, 255, 0.5);
+}
+
+.video-one {
+    margin-top: 100px;
+    width: 450px;
+    height: 550px;
+    border: 2px solid #00fbff;
+    padding: 40px 0;
+    border-radius: 8px;
+    background-color: #030d22;
+    border: 1px solid rgba(0, 119, 255, 0.2);
+    border-radius: 16px;
+    box-shadow:0 0 20px rgba(0, 119, 255, 0.25),inset 0 0 15px rgba(0, 119, 255, 0.15);
+    transition: all 0.9s ease;
+}
+
+.video-one:hover {
+    box-shadow:0 0 30px rgba(0, 119, 255, 0.45),inset 0 0 20px rgba(0, 119, 255, 0.25);
+    border-color: rgba(0, 119, 255, 0.4);
+    transform: scale(1.02);
+}
+
+
+.video-text {
+    width: 300px;
+    text-align: start;
+    font-family: sans-serif;
+    padding: 30px 0 0 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video-text h4 {
+    text-transform: uppercase;
+    color: aqua;
+}
+
+.video-text p {
+    color: white;
+    font-size: 17px;
 }
